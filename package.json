@@ -1,0 +1,24 @@
+{
+  "name": "protipo-typegraphql-unions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "yarn nodemon --exec ts-node src/server/index.ts"
+  },
+  "keywords": [],
+  "author": "Rafael Gonçalves <rafael.goncanna@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.1",
+    "apollo-server": "^3.4.0",
+    "graphql": "^15.6.1",
+    "nodemon": "^2.0.13",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.3.0",
+    "type-graphql": "^1.1.1",
+    "typescript": "^4.4.4"
+  }
+}
